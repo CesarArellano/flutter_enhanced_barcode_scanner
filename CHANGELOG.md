@@ -1,8 +1,8 @@
 ## 3.0.0
 
-* Update to Flutter 3 by César Arellano.
-* Android: Fixed aspect ratio incorrect by ondine93.
-* iOS: Fixed non-complete future on camera not available by Michele Volpato (mvolpato).
+* Update to Flutter 3 by [César Arellano](https://github.com/CesarArellano/).
+* Android: Fixed aspect ratio incorrect by [ondine93](https://github.com/ondine93).
+* iOS: Fixed non-complete future on camera not available by [Michele Volpato (mvolpato)](https://github.com/mvolpato).
 
 ## 2.0.0
 

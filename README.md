@@ -64,7 +64,7 @@ After making the changes in Android ans iOS add flutter_enhanced_barcode_scanner
 ```  
 dependencies:
   ...
-  flutter_enhanced_barcode_scanner: ^2.0.0
+  flutter_enhanced_barcode_scanner: ^3.0.0
 ```
 
 ### One time scan
@@ -97,7 +97,9 @@ Here in `scanBarcode`,
  It shows the graphics overlay like for barcode and QR.
  
  NOTE: Currently, `scanMode` is just to show the graphics overlay for barcode and QR. Any of this mode selected will scan both QR and barcode. 
-
+ 
+  Completes with `-1` if the user cancels the scan.
+  On iOS, completes with `-2` if the camera is not available, for instance, on simulator.
 ### Continuous scan
 * If you need to scan barcodes continuously without closing camera use `FlutterBarcodeScanner.getBarcodeStreamReceiver`
 params will be same like `FlutterBarcodeScanner.scanBarcode`
