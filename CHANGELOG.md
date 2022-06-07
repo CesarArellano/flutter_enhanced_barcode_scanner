@@ -1,3 +1,7 @@
+## 3.0.1
+
+* Fixed author's github.
+
 ## 3.0.0
 
 * Update to Flutter 3 by [César Arellano](https://github.com/CesarArellano/).

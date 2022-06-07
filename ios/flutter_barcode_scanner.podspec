@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A new Flutter plugin supports barcode scanning on both Android and iOS.
                        DESC
-  s.homepage         = 'https://github.com/AmolGangadhare/flutter_enhanced_barcode_scanner'
+  s.homepage         = 'https://github.com/AmolGangadhare/flutter_barcode_scanner'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Amol Gangadhare' => 'amol.gangadhare@gmail.com' }
   s.source           = { :path => '.' }
